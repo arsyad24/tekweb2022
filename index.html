@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio home</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+<div class="global">
+    <div class="bg" onmouseenter="ngetik()">
+        <nav>
+            <a href="https://www.instagram.com/syd.atpi_/"><img src="images/logo.png" class="logo"></a> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#artikel">E-SPORT NEWS</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+            </ul>
+        </nav>
+        <div class="body" >
+            <h1>ARSYAD ATPI SIDIQ</h1>
+            <p id="desk"></p>
+        </div>
+        <div class="images">
+            <img src="images/syd.png" class="syd">
+        </div>
+    <div>
+
+    <div class="judul">
+        <h1>BERITA SEPUTAR E-SPORTS MOBILE LEGENDS</h1>
+    </div>
+
+    <div class="grid" id="app">
+        <div class="artikel" v-for="data in articles">
+            <a :href="'./hub.html?markdown=' + data.markdown">
+            <img :src="data.img" alt="">
+            <h1>{{ data.Title }}</h1>
+            <p>{{ data.Content }}</p>
+        </a>
+        </div>
+
+    </div>
+</div>
+    <script>
+        var a = 0;
+        var txt = 'Mahasiswa program studi Sistem Informasi Universitas Ahmad Dahlan';
+        var speed = 50;
+
+        function ngetik() {
+            if (a < txt.length) {
+                document.getElementById("desk").innerHTML += txt.charAt(a);
+                a++;
+                setTimeout(ngetik, speed);
+            }
+        }
+    </script>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

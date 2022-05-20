@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="about-styles.css">
+    
+</head>
+<body>
+    <div class="bg">
+
+        <nav>
+            <a href="https://www.instagram.com/syd.atpi_/"><img src="images/logo.png" class="logo"></a> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html#artikel">E-SPORT NEWS</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+            </ul>
+        </nav>
+
+        <div class="heading" onmouseenter="ngetik()">
+            <h1>
+                TENTANG SAYA
+            </h1>
+            <div class="grid">
+                <div class="img">
+                    <img src="images/syd.png" class="syd">
+                </div>
+                <div class="about">
+                    <h1 id="desk"></h1>
+                    <p>Mahasiswa Program Studi Sistem Informasi Universitas Ahmad Dahlan</p>
+                    <p>TTL : Buntok, 24 februari 2002</p>
+                    <p>Alamat : Pematang Karau, Barito Timur, Kalimantan Tengah 72653</p>
+                    <P>INSTAGRAM : @syd.atpi</P>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var a = 0;
+        var txt = 'ARSYAD ATPI SIDIQ';
+        var speed = 150;
+
+        function ngetik() {
+            if (a < txt.length) {
+                document.getElementById("desk").innerHTML += txt.charAt(a);
+                a++;
+                setTimeout(ngetik, speed);
+            }
+        }
+    </script>
+</body>
+</html>

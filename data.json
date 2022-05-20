@@ -1,0 +1,23 @@
+[
+    {
+        "ID": "1",
+        "img": "https://raw.githubusercontent.com/arsyad24/tekweb2022/main/images/mpl.jpg",
+        "Title": "MPL ID S9 : EVOS ROAR VS RRQ HOSHI",
+        "Content": "Dengan heroes Wan-wan, Lemon dapat men-support tim berjulukan 'raja dari segala raja' saat war dengan serangan damage yang mampu mengikis health lawan.",
+        "markdown": "ar1.md"
+    },
+    {
+        "ID": "2",
+        "img": "https://raw.githubusercontent.com/arsyad24/tekweb2022/main/images/lemon.jpg",
+        "Title": "Alasan Lemon Keluar dari RRQ?",
+        "Content": "Seperti diketahui Lemon yang memiliki nama asli Muhammad Ikhsan merupakan pemain profesional untuk tim RRQ Hoshi yang berkancah di divisi game Mobile Legends Bang Bang.",
+        "markdown": "ar2.md"
+    },
+    {
+        "ID": "3",
+        "img": "https://raw.githubusercontent.com/arsyad24/tekweb2022/main/images/pak%20ap.jpg",
+        "Title": "Provokator Kembali Berulah, Pak AP Siapkan Jalur Hukum",
+        "Content": "Perlu diingat, perkara yang sama juga terjadi setelah pertandingan grand final MPL ID Season 8, yang menimpa ONIC Kiboy dan ONIC Drian.",
+        "markdown": "ar3.md"
+    }
+]
