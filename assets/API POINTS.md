@@ -133,3 +133,6 @@ response:
 true    //if true
 false   //if false
 ```
+
+# DATABASE DESIGN
+![Design Database](https://raw.githubusercontent.com/arsyad24/tekweb2022/main/assets/database%20design.jpeg)
